@@ -43,9 +43,9 @@ section[id]{scroll-margin-top:76px}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
 .chip{display:inline-block;background:rgba(255,194,26,.14);border:1px solid rgba(255,194,26,.5);color:var(--y);font-weight:700;font-size:14px;padding:6px 14px;border-radius:999px;margin-bottom:18px}
 h1{line-height:1.05;margin-bottom:22px}
-.slogan{display:block;font-family:var(--head);font-size:clamp(30px,5vw,52px);color:var(--y);-webkit-text-stroke:4px #000;paint-order:stroke fill;letter-spacing:1px;margin-bottom:6px;text-shadow:0 4px 0 rgba(0,0,0,.6)}
-.brand{display:block;font-family:var(--head);font-size:clamp(64px,11vw,120px);color:#fff;-webkit-text-stroke:5px #000;paint-order:stroke fill;letter-spacing:4px;text-shadow:0 4px 0 rgba(0,0,0,.6)}
-.brand em{font-style:normal;color:#FFD21F;-webkit-text-fill-color:#FFD21F;background:none;-webkit-text-stroke:5px #000;paint-order:stroke fill;text-shadow:0 4px 0 rgba(0,0,0,.6)}
+.slogan{display:block;font-family:var(--head);font-size:clamp(30px,5vw,52px);color:var(--y);letter-spacing:1px;margin-bottom:6px;text-shadow:0 3px 10px rgba(0,0,0,.8)}
+.brand{display:block;font-family:var(--head);font-size:clamp(64px,11vw,120px);color:#fff;letter-spacing:3px;text-shadow:0 4px 14px rgba(0,0,0,.85)}
+.brand em{font-style:normal;color:#FFD21F;-webkit-text-fill-color:#FFD21F;background:none;-webkit-text-stroke:0;text-shadow:0 4px 14px rgba(0,0,0,.85)}
 .lead{font-size:clamp(16px,2vw,19px);color:#e4e4e7;margin-bottom:26px}
 .lead strong{color:var(--y)}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px}
